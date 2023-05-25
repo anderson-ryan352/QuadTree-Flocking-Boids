@@ -48,7 +48,7 @@ int main()
                         }
                 }
 
-                if (clock.getElapsedTime() > sf::milliseconds(32))
+                if (clock.getElapsedTime() > sf::milliseconds(16))
                 {
                         window.clear();
                         drawWindow(window, boids);
